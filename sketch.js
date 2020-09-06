@@ -71,7 +71,7 @@ function setup() {
 
 function draw() {
  
-  background("black");
+  background("pink");
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
