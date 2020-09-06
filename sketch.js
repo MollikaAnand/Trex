@@ -64,14 +64,14 @@ function setup() {
   
   cloudsGroup = new Group();
   obstaclesGroup = new Group();
- // trex.debug = true
+
   
   score = 0;
 }
 
 function draw() {
-  //trex.debug = true;
-  background("red");
+ 
+  background("yellow");
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
